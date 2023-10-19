@@ -4,5 +4,3 @@ pandas
 numpy
 matplotlib
 gunicorn
-
-
