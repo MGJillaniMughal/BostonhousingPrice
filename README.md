@@ -24,16 +24,18 @@ templates/ - Folder containing HTML templates for the web application.
 
 # Installation
 Before running the application, you need to install the necessary Python packages. You can install these packages using pip:
+```
 pip install -r requirements.txt
-
+```
 Note: The requirements.txt file is not included in the repository. You should create this file and list all the necessary packages and their versions.
 
 # Usage
 To run the web application on your local machine, execute the following command:
+```
 python app.py
+```
 
-
-This command will start a local web server, and the application will be accessible at http://127.0.0.1:5000 by default.
+This command will start a local web server, and the application will be accessible at ``` http://127.0.0.1:5000 ``` by default.
 
 For making predictions, navigate to the home page, input the required parameters, and submit the form. The predicted Boston housing price will be displayed on the screen.
 
